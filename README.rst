@@ -1,20 +1,20 @@
 ****************************
-{{ cookiecutter.dist_name }}
+Mopidy-Mpd2ccast
 ****************************
 
-.. image:: https://img.shields.io/pypi/v/{{ cookiecutter.dist_name }}
-    :target: https://pypi.org/project/{{ cookiecutter.dist_name }}/
+.. image:: https://img.shields.io/pypi/v/Mopidy-Mpd2ccast
+    :target: https://pypi.org/project/Mopidy-Mpd2ccast/
     :alt: Latest PyPI version
 
-.. image:: https://img.shields.io/github/workflow/status/{{ cookiecutter.github_username }}/{{ cookiecutter.repo_name }}/CI
-    :target: https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.repo_name }}/actions
+.. image:: https://img.shields.io/github/workflow/status/5AMsan/mopidy-mpd2ccast/CI
+    :target: https://github.com/5AMsan/mopidy-mpd2ccast/actions
     :alt: CI build status
 
-.. image:: https://img.shields.io/codecov/c/gh/{{ cookiecutter.github_username }}/{{ cookiecutter.repo_name }}
-    :target: https://codecov.io/gh/{{ cookiecutter.github_username }}/{{ cookiecutter.repo_name }}
+.. image:: https://img.shields.io/codecov/c/gh/5AMsan/mopidy-mpd2ccast
+    :target: https://codecov.io/gh/5AMsan/mopidy-mpd2ccast
     :alt: Test coverage
 
-{{ cookiecutter.short_description }}
+Mopidy extension to cast to Chromecast devices
 
 
 Installation
@@ -22,32 +22,32 @@ Installation
 
 Install by running::
 
-    python3 -m pip install {{ cookiecutter.dist_name }}
+    python3 -m pip install Mopidy-Mpd2ccast
 
-See https://mopidy.com/ext/{{ cookiecutter.ext_name }}/ for alternative installation methods.
+See https://mopidy.com/ext/mpd2ccast/ for alternative installation methods.
 
 
 Configuration
 =============
 
 Before starting Mopidy, you must add configuration for
-{{ cookiecutter.dist_name }} to your Mopidy configuration file::
+Mopidy-Mpd2ccast to your Mopidy configuration file::
 
-    [{{ cookiecutter.ext_name }}]
+    [mpd2ccast]
     # TODO: Add example of extension config
 
 
 Project resources
 =================
 
-- `Source code <https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.dist_name|lower }}>`_
-- `Issue tracker <https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.dist_name|lower }}/issues>`_
-- `Changelog <https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.dist_name|lower }}/blob/master/CHANGELOG.rst>`_
+- `Source code <https://github.com/5AMsan/mopidy-mpd2ccast>`_
+- `Issue tracker <https://github.com/5AMsan/mopidy-mpd2ccast/issues>`_
+- `Changelog <https://github.com/5AMsan/mopidy-mpd2ccast/blob/master/CHANGELOG.rst>`_
 
 
 Credits
 =======
 
-- Original author: `{{ cookiecutter.author_full_name }} <https://github.com/{{ cookiecutter.github_username }}>`__
-- Current maintainer: `{{ cookiecutter.author_full_name }} <https://github.com/{{ cookiecutter.github_username }}>`__
-- `Contributors <https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.dist_name|lower }}/graphs/contributors>`_
+- Original author: `SAMsan <https://github.com/5AMsan>`__
+- Current maintainer: `SAMsan <https://github.com/5AMsan>`__
+- `Contributors <https://github.com/5AMsan/mopidy-mpd2ccast/graphs/contributors>`_

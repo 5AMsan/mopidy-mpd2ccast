@@ -3,7 +3,7 @@ Changelog
 *********
 
 
-v{{ cookiecutter.version }} (UNRELEASED)
+v0.1.0 (UNRELEASED)
 ========================================
 
 - Initial release.
